@@ -1,0 +1,223 @@
+:root {
+    .text {}
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(gambar/background.png);
+    height: 60vh;
+}
+
+.p1 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+
+}
+
+.p2 {
+    font-size: 1.9rem;
+    font-family: 'Nerko One', cursive;
+    line-height: 10px;
+}
+
+/* navbar */
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(69, 69, 69, 0.8);
+    width: 100%;
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(69, 69, 69, 0.8);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+
+}
+
+.navbar-toggle {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Nerko One', cursive;
+
+}
+
+.login-btn {
+    padding: 8px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: rgba(43, 43, 43, 0.8);
+    color: #92faff;
+    transition: 0.8s ease-out;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+/* close navbar */
+
+/* text berjalan */
+.text-berjalan {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.iam {
+    line-height: 60px;
+    color: rgb(71, 71, 71);
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    border-right: 2px solid rgb(255, 0, 0);
+    font-size: 60px;
+    color: rgb(132, 17, 17);
+    font-weight: bold;
+    font-family: 'Martel', serif;
+    border-radius: 10px 0 10px 8px;
+}
+
+
+/* close text berjalan */
+
+/* isi */
+.rumus-rumus1 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.gambar1 {
+    width: 720px;
+    background: #91BDFF;
+    box-shadow: 25px 0px 4px rgba(144, 189, 255, 0.5);
+    
+}
+
+
+.gambar2 {
+    width: 720px;
+    height: 800px;
+    background-image: url(gambar/1.png);
+    margin:0 auto;
+}
+
+.gambar3 {
+    width: 695px;
+    height: 800px;
+    background-image: url(gambar/2.png);
+    box-shadow: 25px 0px 4px rgba(144, 189, 255, 0.5);
+
+    
+}
+
+
+.gambar4 {
+    width: 720px;
+    background: #91BDFF;
+    box-shadow: 25px 0px 4px rgba(144, 189, 255, 0.5);
+}
+
+
+/* close isi */
+
+
+@media (min-width: 600px) {
+    .navbar-brand {
+        color: #fff;
+        display: flex;
+        margin-bottom: 0px;
+
+    }
+
+    .navbar-bar {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 24px;
+    }
+
+    .text-berjalan {
+        float: left;
+
+    }
+
+    .iam {
+        font-size: 60px;
+
+    }
+
+    .login-btn {
+        padding: 10px 20px
+    }
+
+    .p2 {
+        margin-top: 16px;
+        margin-left: 2px;
+    }
+
+}
